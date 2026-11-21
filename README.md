@@ -1,3 +1,11 @@
+```
+ _                                                    _            _ _
+(_) ___ __ _ _ __ _   _ ___       _ __ ___   ___   __| |       ___| (_)
+| |/ __/ _` | '__| | | / __|_____| '_ ` _ \ / _ \ / _` |_____ / __| | |
+| | (_| (_| | |  | |_| \__ \_____| | | | | | (_) | (_| |_____| (__| | |
+|_|\___\__,_|_|   \__,_|___/     |_| |_| |_|\___/ \__,_|      \___|_|_|
+```
+
 # icarus-mod-cli
 
 A commandline tool to manage and repack (for weekly updates) mods.
@@ -14,12 +22,19 @@ It creates merged mods compatible to [Jimk72/Icarus-Mod-Manager](https://github.
 - supports Win10+, MacOS, Linux
 - uasset merging + patching
 
-> [!NOTE]
-> during dev, code is not yet released and not all OS targets build
+> [!IMPORTANT]
+> During dev, code is not yet released and not all OS targets build (version < 1.0.0)
 >
 > Building mods and merging is stable -> making the first windows binary available.
+>
+> Not yet available:
+> - uasset merging
+> - native support for merging CrystalFerrai/IcarusModManager mods (.zip)
+> - code cleanup
+> - ...
 
 ## Installation
+
 1. Get the binary from the releases
 2. Open your terminal and navigate to the unzipped imc binary
 3. Type `imc setup all` ... it will unpack needed files, create a config, download dependencies. See the help below 
