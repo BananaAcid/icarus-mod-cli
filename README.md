@@ -19,6 +19,11 @@ It creates merged mods compatible to [Jimk72/Icarus-Mod-Manager](https://github.
 >
 > Building mods and merging is stable -> making the first windows binary available.
 
+## Installation
+1. Get the binary from the releases
+2. Open your terminal and navigate to the unzipped imc binary
+3. Type `imc setup all` ... it will unpack needed files, create a config, download dependencies. See the help below 
+
 ## Usage example
 
 ```bash
