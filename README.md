@@ -3,7 +3,7 @@
 A commandline tool to manage and repack (for weekly updates) mods.
 
 It creates merged mods compatible to [Jimk72/Icarus-Mod-Manager](https://github.com/Jimk72/Icarus_Software), but with a few bells and whistles
-- it is cli only
+- it is terminal only (commandline)
 - can be used with dedicated servers 
 - most methods can optionally return json - for automation / update scripts (for automated updating of game and servers)
 - it supports .EXMOD/.EXMODZ and Laanp Script (nativly)
