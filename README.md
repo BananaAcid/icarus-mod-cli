@@ -8,7 +8,7 @@
 
 # icarus-mod-cli
 
-A commandline tool to manage and repack (for weekly updates) mods.
+An Icarus Mod Manger comandline tool to manage and repack mods (for weekly updates).
 
 It creates merged mods compatible to [Jimk72/Icarus-Mod-Manager](https://github.com/Jimk72/Icarus_Software), but with a few bells and whistles
 - it is terminal only (commandline)
