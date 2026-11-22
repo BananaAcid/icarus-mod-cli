@@ -14,10 +14,11 @@ It creates merged mods compatible to [Jimk72/Icarus-Mod-Manager](https://github.
 - it is terminal only (commandline)
 - can be used with dedicated servers 
 - most methods can optionally return json - for automation / update scripts (for automated updating of game and servers)
-- it supports .EXMOD/.EXMODZ and Laanp Script (nativly)
-- merges all folders, IMM looses some folders on merging sometimes (like UI folders)
-- supports downloading and searching for mods
-- supports an open mod author repo listing indepandant of any mod manager author [here](https://gist.github.com/BananaAcid/5dc703c5cf73a41291bdcee400a8ca38)
+- it supports .EXMOD/.EXMODZ, and Laanp Script nativly (IMM does not)
+- Vortex (from NexusMods) downloaded icarus mods are supported as well (these are default pak files), just move them to IMC's download folder then remove them from the game
+- merges all content like folders (IMM looses some folders on merging sometimes, like UI folders)
+- supports downloading and searching for mods from the same repos as IMM
+- additionally supports an open mod author repo listing, Independent of any mod manager author [here](https://gist.github.com/BananaAcid/5dc703c5cf73a41291bdcee400a8ca38)
 - hopefully intuitive to use
 - supports Win10+, MacOS, Linux
 - uasset merging + patching
@@ -26,10 +27,11 @@ It creates merged mods compatible to [Jimk72/Icarus-Mod-Manager](https://github.
 > During dev, code is not yet released and not all OS targets build (version < 1.0.0)
 >
 > Building mods and merging is stable -> making the first windows binary available.
+> Supporting all mods IMM does and from the same repos IMM does as well.
 >
 > Not yet available:
 > - uasset merging
-> - native support for merging CrystalFerrai/IcarusModManager mods (.zip)
+> - native support for merging CrystalFerrai-IcarusModManager mods (special .zip) (IMM does not do this and does currently not list such mods)
 > - code cleanup
 > - ...
 
