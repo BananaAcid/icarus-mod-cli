@@ -8,13 +8,13 @@
 
 # icarus-mod-cli
 
-An Icarus Mod Manger comandline tool to manage and repack mods (for weekly updates).
+An Icarus Mod Manger commandline tool to manage and repack mods (for weekly updates).
 
 It creates merged mods compatible to [Jimk72/Icarus-Mod-Manager](https://github.com/Jimk72/Icarus_Software), but with a few bells and whistles
 - it is terminal only (commandline)
 - can be used with dedicated servers 
 - most methods can optionally return json - for automation / update scripts (for automated updating of game and servers)
-- it supports .EXMOD/.EXMODZ, and Laanp Script nativly (IMM does not)
+- it supports .EXMOD/.EXMODZ, and Laanp Script natively (IMM does not)
 - Vortex (from NexusMods) downloaded icarus mods are supported as well (these are default pak files), just move them to IMC's download folder then remove them from the game
 - merges all content like folders (IMM looses some folders on merging sometimes, like UI folders)
 - supports downloading and searching for mods from the same repos as IMM
