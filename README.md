@@ -30,6 +30,12 @@ It creates merged mods compatible to [Jimk72/Icarus-Mod-Manager](https://github.
   - `CrystalFerrai Readme Registry` (https://github.com/CrystalFerrai/IcarusMods/blob/main/Release/readme.md) (IMM does currently not list such mods)
 - native support for downloading and merging CrystalFerrai-IcarusModManager mods (merging of manually downloaded mods was already available)
 - reliable mod names (like `Jimk72/Jimk_Cupboard_Signs` or explicitly `id:Jimk72/Jimk_Cupboard_Signs`)
+  - `[id:]<repouser>[/<reponame>][/<optional_other_dirs>]/<modfilename>[<ext>][#<branch>][@<version>|@w<weeknum>]`
+- search prefixes:
+  - `id:`, `any:` (alias `*:`),
+  - `name:`, `author:`, `version:`, `compatibility:` (alias `week:`), `imageURL:`, `readmeURL:`, `description:`
+  - `files:` (to match a filename), `filetype:` (to match the file key)
+  - combining: is with comma like -> `name,readme:`
 
 > [!IMPORTANT]
 > During dev, code is not yet released and not all OS targets build (version < 1.0.0)
