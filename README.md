@@ -36,6 +36,7 @@ It creates merged mods compatible to [Jimk72/Icarus-Mod-Manager](https://github.
   - `name:`, `author:`, `version:`, `compatibility:` (alias `week:`), `imageURL:`, `readmeURL:`, `description:`
   - `files:` (to match a filename), `filetype:` (to match the file key)
   - combining: is with comma like -> `name,readme:`
+- zipped mod bundles (zip with multiple mods) can be handles as one mod.
 
 > [!IMPORTANT]
 > During dev, code is not yet released and not all OS targets build (version < 1.0.0)
