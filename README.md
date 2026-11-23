@@ -23,6 +23,14 @@ It creates merged mods compatible to [Jimk72/Icarus-Mod-Manager](https://github.
 - supports Win10+, MacOS, Linux
 - uasset merging + patching
 
+**> 0.1.60**
+- support for other kind of registries (next to the default Project Daedalus Mods Database):
+  - `Gist Registry: Icarus Mod Repo List` (https://gist.github.com/BananaAcid/5dc703c5cf73a41291bdcee400a8ca38)
+  - `Local Registry File` (user can create a `registry.json` for testing or for the dedicated server)
+  - `CrystalFerrai Readme Registry` (https://github.com/CrystalFerrai/IcarusMods/blob/main/Release/readme.md) (IMM does currently not list such mods)
+- native support for downloading and merging CrystalFerrai-IcarusModManager mods (merging of manually downloaded mods was already available)
+- reliable mod names (like `Jimk72/Jimk_Cupboard_Signs` or explicitly `id:Jimk72/Jimk_Cupboard_Signs`)
+
 > [!IMPORTANT]
 > During dev, code is not yet released and not all OS targets build (version < 1.0.0)
 >
@@ -31,7 +39,7 @@ It creates merged mods compatible to [Jimk72/Icarus-Mod-Manager](https://github.
 >
 > Not yet available:
 > - uasset merging
-> - native support for merging CrystalFerrai-IcarusModManager mods (special .zip) (IMM does not do this and does currently not list such mods)
+> -  native support for CrystalFerrai-IcarusModManager SOURCE mods (.patch files) merging (IMM does not do this).
 > - code cleanup
 > - ...
 
