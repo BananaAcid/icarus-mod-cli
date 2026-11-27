@@ -21,7 +21,7 @@ It creates merged mods compatible to [Jimk72/Icarus-Mod-Manager](https://github.
 - additionally supports an open mod author repo listing, Independent of any mod manager author [here](https://gist.github.com/BananaAcid/5dc703c5cf73a41291bdcee400a8ca38)
 - hopefully intuitive to use
 - supports Win10+, MacOS, Linux
-- uasset merging + patching
+- single binary
 
 **> 0.1.60**
 - support for other kind of registries (next to the default Project Daedalus Mods Database):
@@ -29,6 +29,7 @@ It creates merged mods compatible to [Jimk72/Icarus-Mod-Manager](https://github.
   - `Local Registry File` (user can create a `registry.json` for testing or for the dedicated server)
   - `CrystalFerrai Readme Registry` (https://github.com/CrystalFerrai/IcarusMods/blob/main/Release/readme.md) (IMM does currently not list such mods)
 - native support for downloading and merging CrystalFerrai-IcarusModManager mods (merging of manually downloaded mods was already available)
+- native support for CrystalFerrai-IcarusModManager SOURCE mods (.patch files) merging (IMM does not do this).
 - reliable mod names (like `Jimk72/Jimk_Cupboard_Signs` or explicitly `id:Jimk72/Jimk_Cupboard_Signs`)
   - `[id:]<repouser>[/<reponame>][/<optional_other_dirs>]/<modfilename>[<ext>][#<branch>][@<version>|@w<weeknum>]`
 - search prefixes:
@@ -37,6 +38,10 @@ It creates merged mods compatible to [Jimk72/Icarus-Mod-Manager](https://github.
   - `files:` (to match a filename), `filetype:` (to match the file key)
   - combining: is with comma like -> `name,readme:`
 - zipped mod bundles (zip with multiple mods) can be handles as one mod.
+- support for referring to mods by `repo/modname`
+- converting `static/baked` mods (those with only a PAK) into CrystalFerrai Mods or EXOD (to make them independend of the game data)
+- uasset merging + patching
+
 
 > [!IMPORTANT]
 > During dev, code is not yet released and not all OS targets build (version < 1.0.0)
@@ -45,8 +50,6 @@ It creates merged mods compatible to [Jimk72/Icarus-Mod-Manager](https://github.
 > Supporting all mods IMM does and from the same repos IMM does as well.
 >
 > Not yet available:
-> - uasset merging
-> -  native support for CrystalFerrai-IcarusModManager SOURCE mods (.patch files) merging (IMM does not do this).
 > - code cleanup
 > - ...
 
