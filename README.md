@@ -66,6 +66,16 @@ $ imc TrueProgression_LevelCap313 laanp-RealLevels --deploy
 ```
 *Note:* IMM would have problems merging, with IMC it just works (EXMOD + Laanp script).
 
+```powershell
+$amount = ((.\imc mods update --json) -join "" | ConvertFrom-Json).summary.updates
+if ($amount) {
+  Write-Host "Mod Updates available: $amount" 
+}
+else {
+  Write-Host "Mod Updates available: NONE" 
+}
+```
+
 ```bash
 $ imc mods "teleport"
 Searching plugins for: teleport
