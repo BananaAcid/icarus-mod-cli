@@ -62,6 +62,11 @@ It creates merged mods compatible to [Jimk72/Icarus-Mod-Manager](https://github.
 ## Usage example
 
 ```bash
+$ imc TrueProgression_LevelCap313 laanp-RealLevels --deploy
+```
+*Note:* IMM would have problems merging, with IMC it just works (EXMOD + Laanp script).
+
+```bash
 $ imc mods "teleport"
 Searching plugins for: teleport
 Jimk Multi Teleport | by Jimk72 | v1.1 | week All | file: https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_MultiTeleport.EXMODZ | modinfo: https://raw.githubusercontent.com/Jimk72/Icarus_Mods/refs/heads/main/modinfo.json | repo: https://github.com/Jimk72/Icarus_Mods
